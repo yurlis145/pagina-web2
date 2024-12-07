@@ -1,0 +1,103 @@
+
+body {
+    background-color:rgb(44 , 124, 161) ;
+    color: black;
+  }
+nav{
+    background-color: rgb(0, 0, 0);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    
+}
+h1{
+    color: rgb(70, 170, 209);
+    font-size: 45px;
+    font-family: arial;
+    
+}
+ul li{
+display: inline-block;
+padding: 0px 20px;
+font-family: arial;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+
+div{
+    color: white;
+    font-family: arial;
+    margin: 0px 20px 30px 40px;
+}
+h4{
+    color: rgb(155, 250, 218);
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: arial;
+    background-color: #000000; 
+    color: #22589e; 
+    padding: 10px; 
+    text-align: center; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+    
+
+}
+
+
+
+h1 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-bottom: 12px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
